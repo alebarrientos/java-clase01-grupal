@@ -8,6 +8,7 @@ public class Ejercicio3 {
             System.out.println("Es primo.");
         else
            System.out.println("No es primo.");
+        scan.close();
     }
     public static boolean esPrimo(int m){
         int contador=0;

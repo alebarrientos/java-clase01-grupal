@@ -15,6 +15,7 @@ public class Ejercicio2 {
             }
             x++;
         }
+        scan.close();
     }
     public static boolean esMultiplo(int x, int m){
         return x%m==0;
