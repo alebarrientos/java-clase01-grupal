@@ -47,7 +47,7 @@ public class Fecha {
             dias = NORMAL;
         else
             dias = BISIESTO;
-        if (dia < dias[mes - 1])
+        if (dia > 0 && dia < dias[mes - 1])
             return true;
         else
             return false;
