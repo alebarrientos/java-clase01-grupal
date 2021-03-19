@@ -40,7 +40,7 @@ public class Fecha {
     }
 
     public static boolean checkDate(int dia, int mes, int anio) {
-        if (dia > 31 || mes > 12)
+        if (mes<0 || mes > 12)
             return false;
         int[] dias;
         if (Fecha.esBisiesto(anio))
